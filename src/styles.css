@@ -1,10 +1,17 @@
 body {
   background-color: #f9f7fe;
+  background-size: cover;
+  background-image: url(https://cdn.shopify.com/s/files/1/1019/5793/collections/Ideas-Wall-Decor-Design-with-Big-and-Small-Clock.jpg?v=1626400594);
   font-family: sans-serif;
 }
 h1 {
   text-align: center;
   font-size: 36px;
+}
+h1 a,
+.name-link {
+  text-decoration: none;
+  color: #212529;
 }
 h2 {
   margin: 0 0 5px;
@@ -13,7 +20,13 @@ h2 {
 footer {
   text-align: center;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
+  color: 212529;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(126, 194, 210, 1) 100%
+  );
 }
 select {
   display: block;
@@ -25,7 +38,12 @@ select {
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background-color: white;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(126, 194, 210, 1) 100%
+  );
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
   border-radius: 10px;
